@@ -1,0 +1,13 @@
+/* .items-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 5%;
+  width: 80vw;
+}
+
+.list__one-item {
+  margin: 10px;
+  width: calc(33.33333% - 60px);
+} */

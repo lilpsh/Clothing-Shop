@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 5px 30px;
+  padding: 0;
+  position: relative;
+}
+
+.store-h2 {
+  padding: 7px;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  font-weight: normal;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  color: #363636;
+  margin: 0;
+}
+
+.store-h2-point {
+  line-height: normal;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 2px;
+  color: #363636;
+}
+
+.store {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px #363636 solid;
+}
+
+.store-nav {
+  padding: 7px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-home {
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  color: #000;
+  outline: none;
+}
+.link-home:hover {
+  color: #000;
+}
+.link-login {
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.link-login:hover {
+  color: #000;
+}
+.btn-logout {
+  background-color: #fff;
+  border-radius: 3%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+/*--------------------------------------------------\/ LOGIN \/--------------------------------------------------*/
+.login-wrapper {
+  margin: 50px 0 0;
+  padding: 0;
+  display: flex;
+}
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-title {
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  color: #363636;
+}
+
+.form-email {
+  border: #363636 2px solid;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  margin-bottom: 3px;
+}
+
+.form-password {
+  border: #363636 2px solid;
+  border-radius: 3px;
+  padding: 5px;
+  outline: none;
+  margin-bottom: 3px;
+}
+
+.form-submit {
+  margin-top: 2px auto;
+  width: 50%;
+  padding-left: 13%;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 3%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background-color: #363636;
+  text-transform: uppercase;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+/*--------------------------------------------------/\ LOGIN /\--------------------------------------------------*/
+
+.Home {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*--------------------------------------------------ITEMS-LIST--------------------------------------------------*/
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.list__one-item {
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.card-content-name,
+.card-content-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #363636;
+}
+
+.card-content-category {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #909090;
+}
+
+.card-content-btn {
+  padding: 5px 10px;
+  margin: 15px auto;
+  margin-bottom: 5px;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  border-radius: 3%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background-color: #363636;
+  text-transform: uppercase;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.card-content-btn:hover {
+  transform: scaleY(1.2);
+}
+
+/*--------------------------------------------------CART--------------------------------------------------*/
+
+.cart {
+  margin-top: 0;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 69%;
+}
+
+.cart-h3 {
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.cart-one {
+  border-bottom: 1px #000 solid;
+  margin-bottom: 5px;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cart-item-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cart-item-img {
+  width: 30px;
+  border-radius: 3%;
+  margin-right: 2px;
+}
+.cart-item-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+.cart-item-btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.cart-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border-bottom: #000 5px;
+}
+
+.cart-quantity-adding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-quantity-number {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  margin: 0 3px;
+}
+
+.cart-quantity-btn {
+  font-family: "Open Sans", sans-serif;
+  width: 18px;
+  text-align: center;
+  padding: 3px 5px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background-color: #363636;
+}
+
+.cart-total-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+
+.cart-empty {
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.cart-total {
+  font-weight: bold;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+}
